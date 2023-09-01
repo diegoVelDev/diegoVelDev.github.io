@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/page2.css">
+    <title>Tienda en línea</title>
+</head>
+<body>
+<header>
+    <a href="../pagina1/pagina_1.html" class="back-link">
+        <span class="back-icon">&#9664;</span>
+        Ir a la página 1
+    </a>
+    <h1>Tienda en línea</h1>
+    <a href="../pagina3/carrito.html" class="back-link" style="margin-left: 2rem">
+        Ir a la página 3
+        <span class="next-icon">&#9654;</span>
+    </a>
+</header>
+<main>
+    <section>
+        <p id="country-info">Página desde donde se realizará la compra: <span id="country"></span></p>
+    </section>
+    <div class="content">
+        <section id="products">
+            <div class="product-card" data-id="1" data-price="150" data-name="Tenis Nike" data-image="https://images.stockx.com/images/Nike-Flyknit-Racer-Neo-Turquoise.jpg" draggable="true" style="background-image: url('https://images.stockx.com/images/Nike-Flyknit-Racer-Neo-Turquoise.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&fm=jpg&auto=compress&dpr=2&trim=color&updated_at=1619739392&q=60'); background-size: contain; background-position: center; background-repeat: no-repeat">
+                <h3>Tenis Nike</h3>
+                <p>Precio: Q150.00</p>
+                <button class="add-to-cart-button">Agregar al Carrito</button>
+            </div>
+            <div class="product-card" data-id="2" data-price="35" data-name="Desodorante Nivea" data-image="https://images-us.nivea.com/-/media/miscellaneous/media-center-items/e/b/8/9000e82790c34cb78dc29500769aad24-web_1010x1180_transparent_png.png" draggable="true" style="background-image: url('https://images-us.nivea.com/-/media/miscellaneous/media-center-items/e/b/8/9000e82790c34cb78dc29500769aad24-web_1010x1180_transparent_png.png'); background-size: contain; background-position: center; background-repeat: no-repeat">
+                <h3>Desodorante Nivea</h3>
+                <p>Precio: Q35.00</p>
+                <button class="add-to-cart-button">Agregar al Carrito</button>
+            </div>
+            <div class="product-card" data-id="3" data-price="17" data-name="Leche" data-image="https://walmartgt.vtexassets.com/arquivos/ids/371640/Leche-Marca-Dos-Pinos-Pinito-Uht-Entera-1000ml-2-33325.jpg?v=638218677680530000" draggable="true" style="background-image: url('https://walmartgt.vtexassets.com/arquivos/ids/371640/Leche-Marca-Dos-Pinos-Pinito-Uht-Entera-1000ml-2-33325.jpg?v=638218677680530000'); background-size: contain; background-position: center; background-repeat: no-repeat">
+                <h3>Leche</h3>
+                <p>Precio: Q17.00</p>
+                <button class="add-to-cart-button">Agregar al Carrito</button>
+            </div>
+            <div class="product-card" data-id="4" data-price="10" data-name="Cepillos" data-image="https://images.ctfassets.net/tdc24j4ik3zq/31GkGJGqNIQrrckFqQ5nVo/caadd2442c5842dc7e4a7a7eea116e25/file.png" draggable="true" style="background-image: url('https://images.ctfassets.net/tdc24j4ik3zq/31GkGJGqNIQrrckFqQ5nVo/caadd2442c5842dc7e4a7a7eea116e25/file.png'); background-size: contain; background-position: center; background-repeat: no-repeat">
+                <h3>Cepillos</h3>
+                <p>Precio: Q10.00</p>
+                <button class="add-to-cart-button">Agregar al Carrito</button>
+            </div>
+        </section>
+
+        <div id="cart">
+            <h2>Carrito de compra</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: <span id="cart-total">Q0</span></p>
+            <a href="../pagina3/carrito.html" class="back-link" style="margin-left: 2rem">
+                Ir a la página 3
+                <span class="next-icon">&#9654;</span>
+            </a>
+        </div>
+    </div>
+</main>
+<script src="js/add-products.js"></script>
+<script src="js/geolocation.js"></script>
+</body>
+</html>

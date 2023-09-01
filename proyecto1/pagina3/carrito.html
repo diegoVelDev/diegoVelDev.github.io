@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmar Compra</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<header>
+  <a href="../pagina2/pagina2.html" class="back-link">
+    <span class="back-icon">&#9664;</span>
+    Ir a la página 2
+  </a>
+  <h1>Tu Carrito de Compra</h1>
+</header>
+<p id="country-info">Página desde donde se realizará la compra: <span id="country"></span></p>
+
+<div id="cart">
+  <table>
+    <thead>
+    <tr>
+      <th>Imagen-Producto</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+      <th>Subtotal</th>
+      <th>Eliminar</th>
+    </tr>
+    </thead>
+    <tbody id="cart-items">
+    <!-- Los productos se agregarán aquí dinámicamente -->
+    </tbody>
+  </table>
+  <div id="total">
+    <span>Total: </span><span id="total-price">$0.00</span>
+  </div>
+  <button id="confirm-button">Confirmar Compra</button>
+</div>
+<script src="script.js"></script>
+<script src="../pagina2/js/geolocation.js"></script>
+</body>
+</html>

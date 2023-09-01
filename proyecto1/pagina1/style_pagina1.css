@@ -1,0 +1,40 @@
+body {
+    background-color: pink;
+}
+
+{
+    margin:0;
+    padding:0;
+    }
+
+    #columna1 {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:799px;
+    margin-top:450px;
+    background-color:#55e5ff;
+    }
+    #columna2 {
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top:25px;
+    background-color:#32c953;
+    }
+    /*#columna3 {
+        position:absolute;
+        top:0px;
+        left:0px;
+        width:450px;
+        margin-top:590px;
+        background-color:tomato;
+        }*/
+    #columna4 {
+        margin-left:0px;
+        margin-right:0px;
+        margin-top:15px;
+        background-color:#32c953
+    }
+        
+
+

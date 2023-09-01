@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+#cart {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.quantity {
+  width: 40px;
+  text-align: center;
+}
+
+#total {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#confirm-button {
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.btn-delete {
+  display: block;
+  width: 100%;
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#total-price {
+  color: #007bff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+.back-link {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.back-link:hover {
+  color: rgba(117, 124, 222, 0.48);
+}
+
+.back-icon {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+
+.next-link {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.next-icon {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#country-info {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+}
+
+#country {
+  font-weight: bold;
+  color: #007bff; /* Cambia el color a tu preferencia */
+}
